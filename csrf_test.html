@@ -2,31 +2,33 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Staff: Edit Country United States</title>
+    <title>Staff: Edit State Alabama</title>
     <meta charset="utf-8">
-    <meta name="description" content="Staff: Edit Country United States">
-    <link rel="stylesheet" media="all" href="/green/public/styles.css">
+    <meta name="description" content="Staff: Edit State Alabama">
+    <link rel="stylesheet" media="all" href="https://130.211.159.203/red/public/styles.css">
   </head>
   <body>
 <div id="menu">
   <ul>
-    <li><a href="/green/public/index.php">Public Site</a></li>
-    <li><a href="/green/public/staff/index.php">Staff Menu</a></li>
-    <li><a href="/green/public/staff/logout.php" style="color: red;">Log out</a></li>
+    <li><a href="https://130.211.159.203/red/public/index.php">Public Site</a></li>
+    <li><a href="https://130.211.159.203/red/public/staff/index.php">Staff Menu</a></li>
+    <li><a href="https://130.211.159.203/red/public/staff/logout.php" style="color: red;">Log out</a></li>
   </ul>
 </div>
 
 <div id="main-content">
-  <a href="index.php">Back to Countries List</a><br />
+  <a href="https://130.211.159.203/red/public/staff/states/show.php?id=1">Back to State</a><br />
 
-  <h1>Edit Country: United States</h1>
+  <h1>Edit State: Alabama</h1>
 
   
-  <form action="edit.php?id=1" method="post">
+  <form action="https://130.211.159.203/red/public/staff/states/edit.php?id=1" method="post">
     Name:<br />
-    <input type="text" name="name" value="United States" /><br />
+    <input type="text" name="name" value="Alabamaaaaa" /><br />
     Code:<br />
-    <input type="text" name="code" value="US" /><br />
+    <input type="text" name="code" value="AL" /><br />
+    Country ID:<br />
+    <input type="text" name="country_id" value="1" /><br />
     <br />
     <input type="submit" name="submit" value="Update"  />
   </form>
